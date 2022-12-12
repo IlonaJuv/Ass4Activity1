@@ -1,0 +1,28 @@
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.app-new {
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    padding: 40px;
+
+}
+
+.counter {
+    display: flex;
+    color: red;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 45%;
+    top: 19%;
+}
+
+
+  

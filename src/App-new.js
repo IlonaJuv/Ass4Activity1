@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import './App-new.css'
 
 export const dataReducer = (state, action) => {
   if (action.type === 'SET_ERROR') {
@@ -34,7 +35,8 @@ const App = () => {
   }, [])
 
   return (
-    <div>
+    <>
+    <div className='app-new'>
       <h1>My Counter</h1>
       <Counter counter={counter} />
 
@@ -56,12 +58,13 @@ const App = () => {
         ))}
       </ul>
     </div>
+    </>
   )
 }
 
 export const Counter = ({ counter }) => (
   <div>
-    <p>{counter}</p>
+    <p className='counter'>{counter}</p>
   </div>
 )
 
